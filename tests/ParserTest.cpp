@@ -10,3 +10,4 @@ TEST(parser, ape_chose_right) {
 	Parser parser;
 	ASSERT_STREQ(parser.getAttr(3, "test test megatest").c_str(), "megatest"); 
 }
+

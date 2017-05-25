@@ -24,7 +24,7 @@ public:
     Product(std::string t_name, std::string t_category, double t_price, int t_quantity); // without id
     Product(std::string t_name, std::string t_category, double t_price, int t_quantity, int t_id) : name(t_name), category(t_category), price(t_price), quantity(t_quantity), id(t_id) {} // constructing product with set id.
     
-    int getPrice() const { return price; }
+    double getPrice() const { return price; }
     int getId() const { return id; }
     int getQuantity() const { return quantity; }
     std::string getName() const { return name; }
